@@ -10,3 +10,15 @@ SHA1: d1d73e22a5fd92217e9eb88c4c4bfeb0b278cf55
 SHA256: 0c34075d1db90ba582f68a0c8b36a0f6d985030bafb776d6b10a946061499b1b
 Description: A service that runs at boot time on raspberry pi and listens for connections from an iOS device to control any of the raspi camera types.
 
+Package: pi-midi-http
+Version: 0.1
+Architecture: armhf
+Maintainer: Aaron Watkins <ac.watkins80@gmail.com>
+Depends: default-jre
+Filename: ./pi-midi-http_0.1-1_armhf.deb
+Size: 29903340
+MD5sum: d7861f6041f9b798a0fc75cbe3e5001a
+SHA1: 23e266cbca98d7401f3e084c06598c31e655c89f
+SHA256: 60a88b5e04256d0fdd349aad50fc0f07931290d70fb4b6102d26a6581f4f6b4f
+Description: A service that runs at boot time on raspberry pi and listens for requests from a MIDI Web App and returns json data about songs, sets, pedals, etc.
+
